@@ -1,0 +1,20 @@
+import random
+
+def Magic8Ball(q):
+    print(q)
+    num = random.randrange(1, 100)
+    if num < 20:
+        print ("without a doubt!")
+        
+    if num < 40:
+        print ("Yes Defenitely!")
+        
+    if num < 60:
+        print ("Don't count on it!")
+        
+    if num < 80:
+        print ("Better not tell you now!")
+        
+while(1):
+    x=input("will this code print")
+    Magic8Ball("will this code print")
