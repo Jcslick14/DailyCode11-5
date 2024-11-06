@@ -1,0 +1,5 @@
+def Box(height, width):
+    for i in range(4):
+        print('*' * 7)
+        
+Box(4, 7)
