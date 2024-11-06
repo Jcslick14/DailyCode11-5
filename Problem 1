@@ -1,0 +1,7 @@
+def InsultComlpiment(name, mode):  
+    if mode == "insult":
+        print(name, "You goofball!")
+    else:
+        print(name, "You are nice :)")
+        
+InsultComlpiment("Jeremy","insult")
